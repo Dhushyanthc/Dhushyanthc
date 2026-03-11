@@ -6,7 +6,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=720&lines=func+main()+%7B+build+systems+that+scale+%7D;Backend+APIs+%E2%80%A2+Exploring+System+Design+%E2%80%A2+Web+Development;IEEE+ICTBIG+2025+%E2%80%94+Published+Researcher+%F0%9F%8F%86;Currently+Building+%3A+Event+Feed+Engine+in+Go+%F0%9F%9A%80)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=720&lines=func+main()+%7B+build+systems+that+scale+%7D;Backend+APIs+%E2%80%A2+Exploring+System+Design+%E2%80%A2+Web+Development;IEEE+ICTBIG+2025+%E2%80%94+Published+Researcher+%F0%9F%8F%86;Currently+Building+%3A+Event+Feed+Engine+in+Go+%F0%9F%9A%80;Open+to+Freelance+%E2%80%A2+Internships+%E2%80%A2+Collaborations)](https://git.io/typing-svg)
 
 </div>
 
@@ -17,6 +17,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dhushyanth-c-163ba1297/)
 [![Gmail](https://img.shields.io/badge/Gmail-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dhushyanthc005@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-%23171515.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Dhushyanthc)
+[![Freelance](https://img.shields.io/badge/Freelance-Available-%2310B981?style=for-the-badge&logo=checkmarx&logoColor=white)](mailto:dhushyanthc005@gmail.com)
 [![Location](https://img.shields.io/badge/📍_Bangalore-India-%230F172A?style=for-the-badge)](https://github.com/Dhushyanthc)
 
 </div>
@@ -62,7 +63,7 @@ func main() {
         },
         Building: "Event Feed Engine — Go + PostgreSQL",
         Research: "IEEE ICTBIG 2025 — AI Astronaut Health Monitor",
-        OpenTo:   []string{"Internships", "Research Collaboration", "Learning Opportunities"},
+        OpenTo:   []string{"Internships", "Freelance Projects", "Research Collaboration", "Learning Opportunities"},
     }
 
     for {
@@ -97,6 +98,7 @@ func main() {
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
 **Databases**
 
@@ -125,10 +127,10 @@ func main() {
 
 > Backend project exploring social media feed architecture
 
-- 🔁 Fan-out feed generation for follower timelines
-- 🔐 JWT authentication for secure APIs
-- 📄 Pagination for efficient feed retrieval
-- 🌐 Follow/Unfollow relationship system
+-  Fan-out feed generation for follower timelines
+-  JWT authentication for secure APIs
+-  Pagination for efficient feed retrieval
+-  Follow/Unfollow relationship system
 
 [![Repo](https://img.shields.io/badge/View_Repo-%23171515?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Dhushyanthc)
 
@@ -136,15 +138,17 @@ func main() {
 <td width="50%" valign="top">
 
 ### 🛍️ Khaleezi E-Commerce
-**React • Vercel**
+**React • Vercel • Freelance**
 
-> Responsive e-commerce website with custom ordering flow
+> Freelance project — responsive e-commerce storefront built for a niche retail client
 
-- 🎨 Dynamic mobile-friendly React UI
-- 🛒 Semi-custom product ordering feature
-- ☁️ Deployed on Vercel
+-  Dynamic mobile-friendly React UI
+-  Semi-custom product ordering feature
+-  Deployed on Vercel
+-  Delivered as a freelance engagement
 
 [![Live](https://img.shields.io/badge/Live_Site-%23000000?style=for-the-badge&logo=vercel&logoColor=white)](https://khaleezi-website.vercel.app/)
+![Freelance](https://img.shields.io/badge/Freelance_Project-%2310B981?style=for-the-badge&logo=checkmarx&logoColor=white)
 
 </td>
 </tr>
@@ -156,9 +160,9 @@ func main() {
 
 > Published research at IEEE ICTBIG 2025
 
-- 🧠 Predictive model for physiological risk detection
-- 🚀 Applied ML for astronaut health monitoring
-- 📊 Research combining AI with space technology
+-  Predictive model for physiological risk detection
+-  Applied ML for astronaut health monitoring
+-  Research combining AI with space technology
 
 ![IEEE](https://img.shields.io/badge/IEEE_ICTBIG_2025-Published-%23FFD700?style=for-the-badge&logo=ieee&logoColor=black)
 
@@ -170,10 +174,10 @@ func main() {
 
 > Currently exploring...
 
-- 🔩 gRPC service communication
-- 🧵 Go concurrency patterns
-- 🗄️ PostgreSQL indexing strategies
-- 🌊 Learning event-driven architectures
+-  gRPC service communication
+-  Go concurrency patterns
+-  PostgreSQL indexing strategies
+-  Learning event-driven architectures
 
 [![Stay Tuned](https://img.shields.io/badge/Stay_Tuned-%230d1117?style=for-the-badge&logo=githubactions&logoColor=38BDF8)](https://github.com/Dhushyanthc)
 
@@ -183,24 +187,15 @@ func main() {
 
 ---
 
-## 📊 GitHub Stats
+##  GitHub Stats
 
 <div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Dhushyanthc&show_icons=true&theme=github_dark&count_private=true&hide_border=true&bg_color=0d1117&title_color=38BDF8&icon_color=34D399&text_color=cbd5e1&border_radius=12&include_all_commits=true&rank_icon=github" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Dhushyanthc&show_icons=true&theme=default&count_private=true&hide_border=true&title_color=0369a1&icon_color=059669&border_radius=12&include_all_commits=true&rank_icon=github" />
-  <img src="https://github-readme-stats.vercel.app/api?username=Dhushyanthc&show_icons=true&theme=github_dark&count_private=true&hide_border=true&bg_color=0d1117&title_color=38BDF8&icon_color=34D399&text_color=cbd5e1&border_radius=12&include_all_commits=true&rank_icon=github" width="49%" />
-</picture>
-
-<br/><br/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Dhushyanthc&theme=react-dark&bg_color=0d1117&color=38BDF8&line=34D399&point=F87171&hide_border=true&area=true&area_color=38BDF820" width="96%" />
 
 </div>
 
 ---
-
 
 ## 📡 Currently Tuned Into
 
@@ -209,6 +204,7 @@ func main() {
 ║  🔧  Building   →  Event Feed Engine (Go)            ║
 ║  📖  Studying   →  System Design & Backend Systems   ║
 ║  🔬  Research   →  IEEE ICTBIG 2025 — ML + Space     ║
+║  🤝  Freelance  →  Open to Web & Backend Projects    ║
 ║  🎯  Goal       →  Build scalable backend systems    ║
 ╚══════════════════════════════════════════════════════╝
 ```
@@ -219,12 +215,13 @@ func main() {
 
 <div align="center">
 
-*Open to internships, collaborations, and interesting projects.*
+*Open to internships, freelance projects, collaborations, and interesting problems.*
 
 <br/>
 
 [![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dhushyanth-c-163ba1297/)
 [![Email](https://img.shields.io/badge/Send_a_Mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dhushyanthc005@gmail.com)
+[![Freelance](https://img.shields.io/badge/Hire_Me_for_Freelance-%2310B981?style=for-the-badge&logo=checkmarx&logoColor=white)](mailto:dhushyanthc005@gmail.com)
 
 <br/>
 

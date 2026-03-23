@@ -147,7 +147,7 @@ func main() {
 -  Deployed on Vercel
 -  Delivered as a freelance engagement
 
-[![Live](https://img.shields.io/badge/Live_Site-%23000000?style=for-the-badge&logo=vercel&logoColor=white)](https://khaleezi-website.vercel.app/)
+[![Live](https://img.shields.io/badge/Live_Site-%23000000?style=for-the-badge&logo=vercel&logoColor=white)](https://khaleezi.com))
 ![Freelance](https://img.shields.io/badge/Freelance_Project-%2310B981?style=for-the-badge&logo=checkmarx&logoColor=white)
 
 </td>

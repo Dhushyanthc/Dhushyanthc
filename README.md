@@ -6,7 +6,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=720&lines=func+main()+%7B+build+systems+that+scale+%7D;Backend+APIs+%E2%80%A2+Exploring+System+Design+%E2%80%A2+Web+Development;IEEE+ICTBIG+2025+%E2%80%94+Published+Researcher+%F0%9F%8F%86;Currently+Building+%3A+Event+Feed+Engine+in+Go+%F0%9F%9A%80;Open+to+Freelance+%E2%80%A2+Internships+%E2%80%A2+Collaborations)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=720&lines=func+main()+%7B+build+systems+that+scale+%7D;Backend+APIs+%E2%80%A2+System+Design+%E2%80%A2+AI+Integration;IEEE+ICTBIG+2025+%E2%80%94+Published+Researcher+%F0%9F%8F%86;Deployed+Go+Backend+on+AWS+EC2+%F0%9F%9A%80;Open+to+Internships+%E2%80%A2+Freelance+%E2%80%A2+Collaborations)](https://git.io/typing-svg)
 
 </div>
 
@@ -41,6 +41,7 @@ type Engineer struct {
     Location  string
     Interests []string
     Building  string
+    Deployed  string
     Research  string
     OpenTo    []string
 }
@@ -53,17 +54,18 @@ func main() {
     me := Engineer{
         Name:     "Dhushyanth C",
         Role:     "Backend & Full-Stack Developer",
-        Degree:   "Information Science Engineering, Bangalore",
-        Location: "India 🇮🇳",
+        Degree:   "Information Science Engineering, DSCE Bangalore — CGPA 9.4",
+        Location: "Bangalore, India 🇮🇳",
         Interests: []string{
-            "Backend Systems",
-            "Exploring System Design",
+            "Backend Systems & System Design",
             "Go Backend Development",
-            "Web Development",
+            "AI-Integrated Products",
+            "Event-Driven Architecture",
         },
-        Building: "Event Feed Engine — Go + PostgreSQL",
-        Research: "IEEE ICTBIG 2025 — AI Astronaut Health Monitor",
-        OpenTo:   []string{"Internships", "Freelance Projects", "Research Collaboration", "Learning Opportunities"},
+        Building:  "Event Feed Engine — Go + PostgreSQL + Redis + Docker",
+        Deployed:  "AWS EC2 (Mumbai) with Nginx reverse proxy",
+        Research:  "IEEE ICTBIG 2025 — AI Astronaut Health Monitor",
+        OpenTo:    []string{"Internships", "Freelance Projects", "Research Collaboration"},
     }
 
     for {
@@ -75,7 +77,7 @@ func main() {
 
 ---
 
-##  Tech Stack
+## Tech Stack
 
 <div align="center">
 
@@ -105,49 +107,60 @@ func main() {
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
-**DevOps & Tools**
+**DevOps & Cloud**
 
+![AWS](https://img.shields.io/badge/AWS_EC2-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+
+**AI & ML**
+
+![Gemini](https://img.shields.io/badge/Gemini_API-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
 </div>
 
 ---
 
-##  Featured Projects
+## Featured Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-###  Event Feed Engine
-**Go • PostgreSQL • JWT**
+### Event Feed Engine
+**Go • PostgreSQL • Redis • Docker • AWS EC2**
 
-> Backend project exploring social media feed architecture
+> Production-grade social media feed backend deployed on AWS
 
--  Fan-out feed generation for follower timelines
--  JWT authentication for secure APIs
--  Pagination for efficient feed retrieval
--  Follow/Unfollow relationship system
+- Fan-out-on-write architecture — post pushed to all followers' feeds on creation
+- PostgreSQL as durable event queue with FOR UPDATE SKIP LOCKED — prevents duplicate processing across workers without a message queue
+- Redis sorted sets (ZADD/ZREVRANGE) for near O(1) feed retrieval
+- JWT authentication, follow graph, rate limiting middleware
+- Fully Dockerized and deployed on AWS EC2 (Mumbai) behind Nginx reverse proxy
+- Live API: http://3.110.169.207
 
-[![Repo](https://img.shields.io/badge/View_Repo-%23171515?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Dhushyanthc)
+[![Repo](https://img.shields.io/badge/View_Repo-%23171515?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Dhushyanthc/event-feed-engine)
+[![Live](https://img.shields.io/badge/Live_API-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](http://3.110.169.207)
 
 </td>
 <td width="50%" valign="top">
 
-### 🛍️ Khaleezi E-Commerce
-**React • Vercel • Freelance**
+### Khaleezi E-Commerce
+**React • Node.js • MongoDB • Gemini API**
 
-> Freelance project — responsive e-commerce storefront built for a niche retail client
+> Full-stack e-commerce platform built and shipped for a paying client
 
--  Dynamic mobile-friendly React UI
--  Semi-custom product ordering feature
--  Deployed on Vercel
--  Delivered as a freelance engagement
+- Full semi-custom product system — dynamic customization UI in React, backend order processing in Node.js
+- AI-powered product description generator in admin panel using Google Gemini API with category-aware prompt engineering
+- Mobile-first responsive design with iterative UX improvements based on client feedback
+- Deployed on Vercel and actively maintained in production
 
-[![Live](https://img.shields.io/badge/Live_Site-%23000000?style=for-the-badge&logo=vercel&logoColor=white)](https://khaleezi.com))
+[![Live](https://img.shields.io/badge/Live_Site-%23000000?style=for-the-badge&logo=vercel&logoColor=white)](https://khaleezi.com)
 ![Freelance](https://img.shields.io/badge/Freelance_Project-%2310B981?style=for-the-badge&logo=checkmarx&logoColor=white)
 
 </td>
@@ -155,29 +168,29 @@ func main() {
 <tr>
 <td width="50%" valign="top">
 
-### 🛸 AI Astronaut Health Monitor
-**Python • Machine Learning**
+### AI Astronaut Health Monitor
+**Python • Machine Learning • IEEE Published**
 
 > Published research at IEEE ICTBIG 2025
 
--  Predictive model for physiological risk detection
--  Applied ML for astronaut health monitoring
--  Research combining AI with space technology
+- ML models for anomaly detection and predictive health risk analysis on physiological sensor data
+- End-to-end real-time inference pipeline — data ingestion, feature processing, risk prediction
+- Research published at the 5th IEEE International Conference on ICT in Business, Industry and Government
 
 ![IEEE](https://img.shields.io/badge/IEEE_ICTBIG_2025-Published-%23FFD700?style=for-the-badge&logo=ieee&logoColor=black)
 
 </td>
 <td width="50%" valign="top">
 
-### 🔭 What's Next?
+### What's Next?
 **Always Learning**
 
 > Currently exploring...
 
--  gRPC service communication
--  Go concurrency patterns
--  PostgreSQL indexing strategies
--  Learning event-driven architectures
+- Kafka for event streaming — migrating PostgreSQL queue to Kafka
+- CI/CD with GitHub Actions for automated EC2 deployment
+- gRPC service communication
+- Advanced PostgreSQL indexing and query optimization
 
 [![Stay Tuned](https://img.shields.io/badge/Stay_Tuned-%230d1117?style=for-the-badge&logo=githubactions&logoColor=38BDF8)](https://github.com/Dhushyanthc)
 
@@ -187,7 +200,7 @@ func main() {
 
 ---
 
-##  GitHub Stats
+## GitHub Stats
 
 <div align="center">
 
@@ -197,21 +210,22 @@ func main() {
 
 ---
 
-## 📡 Currently Tuned Into
+## Currently Tuned Into
 
 ```
-╔══════════════════════════════════════════════════════╗
-║  🔧  Building   →  Event Feed Engine (Go)            ║
-║  📖  Studying   →  System Design & Backend Systems   ║
-║  🔬  Research   →  IEEE ICTBIG 2025 — ML + Space     ║
-║  🤝  Freelance  →  Open to Web & Backend Projects    ║
-║  🎯  Goal       →  Build scalable backend systems    ║
-╚══════════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════════╗
+║  🔧  Building   →  Event Feed Engine (Go) — Live on AWS     ║
+║  ☁️  Deployed   →  AWS EC2 + Docker + Nginx (Mumbai)        ║
+║  🤖  Integrating → Gemini API on Khaleezi (Production)      ║
+║  📖  Studying   →  Kafka, System Design, DSA                ║
+║  🔬  Research   →  IEEE ICTBIG 2025 — ML + Space            ║
+║  🎯  Goal       →  Backend/Full-Stack Internship 2026       ║
+╚══════════════════════════════════════════════════════════════╝
 ```
 
 ---
 
-## 💬 Let's Build Something
+## Let's Build Something
 
 <div align="center">
 

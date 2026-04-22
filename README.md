@@ -144,7 +144,6 @@ func main() {
 - Fully Dockerized and deployed on AWS EC2 (Mumbai) behind Nginx reverse proxy
 
 [![Repo](https://img.shields.io/badge/View_Repo-%23171515?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Dhushyanthc/event-feed-engine)
-[![Live](https://img.shields.io/badge/Live_API-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](http://3.110.169.207)
 
 </td>
 <td width="50%" valign="top">

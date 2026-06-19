@@ -1,11 +1,11 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0f,30:0d1b2a,60:1a1a2e,100:16213e&height=260&section=header&text=Dhushyanth%20C&fontSize=80&fontColor=e2e8f0&animation=fadeIn&fontAlignY=38&desc=Backend%20Engineer%20%E2%80%A2%20GenAI%20Systems%20%E2%80%A2%20IEEE%20Author&descAlignY=58&descAlign=50&descSize=18&fontAlign=50" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0f,30:0d1b2a,60:1a1a2e,100:16213e&height=260&section=header&text=Dhushyanth%20C&fontSize=80&fontColor=e2e8f0&animation=fadeIn&fontAlignY=38&desc=Backend%20Focused%20Full-Stack%20Developer%20%E2%80%A2%20IEEE%20Author&descAlignY=58&descAlign=50&descSize=18&fontAlign=50" width="100%" />
 </div>
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=720&lines=RAG+Pipelines+%E2%80%A2+Agentic+Systems+%E2%80%A2+Backend+Engineering;LangGraph+%E2%80%A2+ChromaDB+%E2%80%A2+LangSmith+%E2%80%A2+Gemini+API;Go+Backends+%E2%80%A2+Event-Driven+Architecture+%E2%80%A2+AWS;IEEE+ICTBIG+2025+%E2%80%94+Published+Researcher)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=720&lines=Scalable+Systems+%E2%80%A2+API+Design+%E2%80%A2+Event-Driven+Architecture;Go+%E2%80%A2+Node.js+%E2%80%A2+FastAPI+%E2%80%A2+React+%E2%80%A2+PostgreSQL+%E2%80%A2+Redis;Backend+Engineering+%E2%80%A2+Full-Stack+Development+%E2%80%A2+AI+Integration;IEEE+ICTBIG+2025+%E2%80%94+Published+Researcher)](https://git.io/typing-svg)
 
 </div>
 
@@ -37,27 +37,26 @@ type Engineer struct {
     Name     string
     Focus    []string
     Degree   string
-    Building string
     Research string
     OpenTo   []string
 }
 
 func (e Engineer) Philosophy() string {
-    return "Ship systems that work. Understand why they work. Then make them work better."
+    return "Design it to scale. Build it end to end. Integrate AI where it matters."
 }
 
 func main() {
     me := Engineer{
         Name: "Dhushyanth C",
         Focus: []string{
-            "RAG Pipelines and Agentic Workflows",
-            "Backend Systems and Event-Driven Architecture",
-            "LLM Integration and Observability",
-            "GenAI Systems in Production",
+            "Backend Systems and API Design",
+            "Full-Stack Development",
+            "Event-Driven Architecture and Microservices",
+            "AI Integration in Production Systems",
         },
         Degree:   "Information Science Engineering, DSCE Bangalore — CGPA 9.4",
         Research: "IEEE ICTBIG 2025 — AI Astronaut Health Monitor",
-        OpenTo:   []string{"GenAI Internships", "Backend Roles", "Freelance"},
+        OpenTo:   []string{"Backend Internships", "Full-Stack Roles", "Freelance"},
     }
 
     for {
@@ -108,15 +107,15 @@ func main() {
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
-**GenAI**
+**AI Integration**
 
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![LangSmith](https://img.shields.io/badge/LangSmith-F9A825?style=for-the-badge&logo=langchain&logoColor=black)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=for-the-badge&logo=databricks&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-00A67E?style=for-the-badge&logo=langchain&logoColor=white)
 
 
 </div>
+
 ---
 
 ## Featured Projects
@@ -128,13 +127,13 @@ func main() {
 ### Event Feed Engine
 **Go • PostgreSQL • Redis • Docker • AWS EC2**
 
-> Production-grade social media feed backend deployed on AWS
+> Production backend deployed on AWS — fan-out-on-write feed system
 
-- Fan-out-on-write architecture — post pushed to all followers' feeds on creation
-- PostgreSQL as durable event queue with FOR UPDATE SKIP LOCKED — prevents duplicate processing across workers without a message queue
-- Redis sorted sets (ZADD/ZREVRANGE) for near O(1) feed retrieval
-- JWT authentication, follow graph, rate limiting middleware
-- Fully Dockerized and deployed on AWS EC2 (Mumbai) behind Nginx reverse proxy
+- Fan-out-on-write architecture pushing events to all follower feeds on creation
+- PostgreSQL as durable event queue with `FOR UPDATE SKIP LOCKED` — no external message broker needed
+- Redis sorted sets (ZADD/ZREVRANGE) for O(1) feed retrieval
+- Transactional outbox pattern, async worker pools, exponential backoff, dead-letter queue
+- JWT auth, rate limiting, Dockerized, deployed on EC2 behind Nginx with CI/CD
 
 [![Repo](https://img.shields.io/badge/View_Repo-%23171515?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Dhushyanthc/event-feed-engine)
 
@@ -144,12 +143,12 @@ func main() {
 ### Khaleezi E-Commerce
 **React • Node.js • MongoDB • Gemini API**
 
-> Full-stack e-commerce platform built and shipped for a paying client
+> Full-stack e-commerce platform shipped for a paying client
 
-- Full semi-custom product system — dynamic customization UI in React, backend order processing in Node.js
-- AI-powered product description generator in admin panel using Google Gemini API with category-aware prompt engineering
-- Mobile-first responsive design with iterative UX improvements based on client feedback
-- Deployed on Vercel and actively maintained in production
+- End-to-end product — React frontend, Node.js backend, MongoDB, 100+ SKU catalog
+- Semi-custom patch configurator: drag-and-drop canvas UI with real-time preview, REST APIs persisting position data, admin dashboard for order fulfillment
+- OTP authentication, Razorpay payment integration, full order lifecycle
+- Deployed on Vercel, actively maintained in production
 
 [![Live](https://img.shields.io/badge/Live_Site-%23000000?style=for-the-badge&logo=vercel&logoColor=white)](https://khaleezi.com)
 ![Freelance](https://img.shields.io/badge/Freelance_Project-%2310B981?style=for-the-badge&logo=checkmarx&logoColor=white)
@@ -160,36 +159,36 @@ func main() {
 <td width="50%" valign="top">
 
 ### Codebase Intelligence Engine
-`Python` `FastAPI` `LangGraph` `LangSmith` `ChromaDB` `Gemini API` `Tree-sitter` `BM25`
+`Python` `FastAPI` `LangGraph` `ChromaDB` `Gemini API`
 
-RAG system that answers natural language questions about any GitHub repository with file and line-level citations.
+Hybrid retrieval API that answers questions about any GitHub repository with file and line-level citations.
 
-- Tree-sitter AST chunking at function and class boundaries — not character count
-- Hybrid retrieval: dense vector search + BM25 fused with Reciprocal Rank Fusion (RRF, K=60)
-- LangGraph agentic router classifies queries using Gemini structured JSON output
-- LangSmith tracing: node-level latency, token usage, routing decisions per run
+- Dense vector search + BM25 sparse retrieval fused via Reciprocal Rank Fusion (RRF)
+- Tree-sitter AST chunking at function/class boundaries with overlap windows
+- Regex pre-router bypassing LLM calls on ~70% of queries — routing latency from 2.4s to <10ms
+- Singleton connection pooling, in-memory BM25 caching, parallel retrieval for sub-500ms search
+- API key auth, per-IP rate limiting, TTL-based data eviction
 
 [![Repo](https://img.shields.io/badge/View_Repo-171515?style=flat-square&logo=github&logoColor=white)](https://github.com/Dhushyanthc/codebase-intelligence)
 
 </td>
 <td width="50%" valign="top">
 
-### AI Code Review
-`Python` `FastAPI` `Gemini API` `GitHub Webhooks` `Docker`
+### Code Review Webhook
+`Python` `FastAPI` `GitHub Webhooks` `Gemini API`
 
-End-to-end GenAI pipeline that reviews GitHub PRs and posts severity-graded comments automatically.
+Automated webhook that processes GitHub PRs and posts severity-graded review comments.
 
-- HMAC-SHA256 webhook signature verification with constant-time comparison
-- Async background task decoupling — 200 returned instantly, review processed post-acknowledgement
-- Low-temperature inference (0.2) with structured system prompt for deterministic output
-- Severity-graded markdown reviews with exact file and line references
+- FastAPI endpoint ingesting PR events with HMAC-SHA256 signature verification
+- Constant-time comparison preventing timing attacks on webhook secrets
+- Async background processing — webhook acknowledged in sub-100ms, review generated post-ack
+- Unified diff parsing isolating changed regions, severity-graded markdown reviews with line references
 
 [![Repo](https://img.shields.io/badge/View_Repo-171515?style=flat-square&logo=github&logoColor=white)](https://github.com/Dhushyanthc/ai-code-reviewer)
 
 </td>
 </tr>
 <tr>
-    
 <td width="50%" valign="top">
 
 ### AI Astronaut Health Monitor
@@ -197,9 +196,9 @@ End-to-end GenAI pipeline that reviews GitHub PRs and posts severity-graded comm
 
 > Published research at IEEE ICTBIG 2025
 
-- ML models for anomaly detection and predictive health risk analysis on physiological sensor data
-- End-to-end real-time inference pipeline — data ingestion, feature processing, risk prediction
-- Research published at the 5th IEEE International Conference on ICT in Business, Industry and Government
+- ML pipeline for anomaly detection and predictive health risk analysis on physiological sensor data
+- 49K+ records, 68 engineered features, 144-step sliding windows
+- End-to-end system — data ingestion, feature processing, model inference, alert generation
 
 ![IEEE](https://img.shields.io/badge/IEEE_ICTBIG_2025-Published-%23FFD700?style=for-the-badge&logo=ieee&logoColor=black)
 
@@ -223,7 +222,7 @@ End-to-end GenAI pipeline that reviews GitHub PRs and posts severity-graded comm
 
 <div align="center">
 
-*Open to internships, freelance projects, collaborations, and interesting problems.*
+*Open to backend and full-stack internships, freelance projects, and interesting engineering problems.*
 
 <br/>
 
